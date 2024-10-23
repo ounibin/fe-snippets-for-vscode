@@ -1,0 +1,45 @@
+{
+  "vue2 template": {
+    "prefix": "v2Template",
+    "body": [
+      "<template>",
+      "  <div class=\"$1\">",
+      "    vue2模板",
+      "  </div>",
+      "</template>",
+      "",
+      "<script>",
+      "",
+      "export default {",
+      "  name: '',",
+      "  components: {},",
+      "  props: {},",
+      "  data() {",
+      "    return {",
+      "      ",
+      "    }",
+      "  },",
+      "  mounted() {},",
+      "  methods() {}",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "vue2模版初始化"
+  },
+  "computed (vue3)": {
+    "prefix": "cp cp2 computed",
+    "body": [
+      "computed: {",
+      "  $1() {",
+      "    $2",
+      "  }",
+      "}"
+    ],
+    "description": ""
+  }
+}

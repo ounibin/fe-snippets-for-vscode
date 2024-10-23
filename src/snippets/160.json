@@ -1,0 +1,84 @@
+{
+  "console.log": {
+    "prefix": "clny",
+    "body": [
+      "console.log(`ny----$1: `, $1)"
+    ],
+    "description": "console.log"
+  },
+  "import @ny/luban": {
+    "prefix": "nyluban",
+    "body": [
+      "import { isIos, isAndroid } from '@ny/luban'"
+    ],
+    "description": "引入 @ny/luban"
+  },
+  ".then (go)": {
+    "prefix": ".then",
+    "body": [
+      ".then(({ result_code, data, error_msg }) => {",
+      "  if (result_code === 1) {",
+      "    const { $1 } = data",
+      "  } else {",
+      "    throw Error(error_msg)",
+      "  }",
+      "}).catch((err) => {",
+      "  console.log(err.message)",
+      "})"
+    ]
+  },
+  ".then (java)": {
+    "prefix": ".then",
+    "body": [
+      ".then(({ code, data, msg }) => {",
+      "  if (code === 1) {",
+      "    const { $1 } = data",
+      "  } else {",
+      "    throw Error(msg)",
+      "  }",
+      "}).catch((err) => {",
+      "  console.log(err.message)",
+      "})"
+    ]
+  },
+  ".then (301)": {
+    "prefix": ".then",
+    "body": [
+      ".then(({ code, data, msg }) => {",
+      "  if (code === 200) {",
+      "    const { $1 } = data",
+      "  } else {",
+      "    throw Error(msg)",
+      "  }",
+      "}).catch((err) => {",
+      "  console.log(err.message)",
+      "})"
+    ]
+  },
+  "user_id (docbiz)": {
+    "prefix": "nyuserid",
+    "body": [
+      "import { useUserStore } from '@/store/user'",
+      "",
+      "const userStore = useUserStore()",
+      "",
+      "const userId = userStore.getUserInfo?.user_id ?? 0"
+    ]
+  },
+  "user_key (docbiz)": {
+    "prefix": "nyuserkey",
+    "body": [
+      "import { useUserStore } from '@/store/user'",
+      "",
+      "const userStore = useUserStore()",
+      "",
+      "const userKey = userStore.getUserInfo?.user_key ?? 0"
+    ]
+  },
+  "import ny api": {
+    "prefix": "nyapi",
+    "body": [
+      "import { $1 } from '@/services/ask/index'"
+    ]
+  }
+}

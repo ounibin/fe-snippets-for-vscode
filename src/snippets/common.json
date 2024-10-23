@@ -1,0 +1,61 @@
+{
+  "console.log": {
+    "prefix": "cl",
+    "body": [
+      "console.log(`异步打印----$1: `, $1)"
+    ],
+    "description": "console.log"
+  },
+  "import from": {
+    "prefix": "ip",
+    "body": [
+      "import $2 from '$1'"
+    ],
+    "description": "import from"
+  },
+  "require": {
+    "prefix": "r",
+    "body": [
+      "const $2 = require('$1')"
+    ],
+    "description": "require module"
+  },
+  "const": {
+    "prefix": "c",
+    "body": [
+      "const $1 = $2"
+    ]
+  },
+  "export default": {
+    "prefix": "ed",
+    "body": [
+      "export default "
+    ],
+    "description": "export default "
+  },
+  "arrow function": {
+    "prefix": "afn",
+    "body": [
+      "($1) => {}"
+    ],
+    "description": "arrow function"
+  },
+  "function": {
+    "prefix": "fn",
+    "body": [
+      "function $1() {",
+      "  $2",
+      "}"
+    ],
+    "description": "function"
+  },
+  "function shorthand": {
+    "prefix": "fns",
+    "body": [
+      "() {",
+      "  $1",
+      "},"
+    ],
+    "description": "function shorthand"
+  }
+}

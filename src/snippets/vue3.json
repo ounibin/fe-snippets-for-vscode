@@ -1,0 +1,182 @@
+{
+  "vue3 template": {
+    "prefix": "v3Template",
+    "body": [
+      "<template>",
+      "  <div class=\"$1\">",
+      "    1",
+      "  </div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "vue3模版初始化"
+  },
+  "import store (vue3)": {
+    "prefix": "vStore",
+    "body": [
+      "import { useAskStore } from '@/store/ask'",
+      "",
+      "const askStore = useAskStore()"
+    ]
+  },
+  "import router (vue3)": {
+    "prefix": "vRouter vjump vquery",
+    "body": [
+      "import { useRoute, useRouter } from 'vue-router'",
+      "",
+      "const router = useRouter()",
+      "// router.push('')",
+      "const route = useRoute()",
+      "const { $1 } = route.query"
+    ]
+  },
+  "v-model (vue3)": {
+    "prefix": "vmodel",
+    "body": [
+      "const $1 = defineModel('$2')"
+    ]
+  },
+  "nextTick (vue3)": {
+    "prefix": "vnexttick",
+    "body": [
+      "nextTick().then(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "defineProps (vue3)": {
+    "prefix": "vProps",
+    "body": [
+      "const props = defineProps({",
+      "  data: {",
+      "    type: Object,",
+      "    default: () => ({})",
+      "  }",
+      "})"
+    ]
+  },
+  "ref (vue3)": {
+    "prefix": "vref ref",
+    "body": [
+      "const $1 = ref($2)"
+    ]
+  },
+  "emit (vue3)": {
+    "prefix": "vemit",
+    "body": [
+      "const emit = defineEmits(['click'])"
+    ]
+  },
+  "defineExpose": {
+    "prefix": "vexpose vdefineExpose",
+    "body": [
+      "defineExpose({$1})"
+    ],
+    "description": ""
+  },
+  "computed (vue3)": {
+    "prefix": "vComputed",
+    "body": [
+      "const $1 = computed(() => {",
+      "  return $2",
+      "})"
+    ]
+  },
+  "watch (vue3)": {
+    "prefix": "vWatch",
+    "body": [
+      "watch($1, (newVal, oldVal) => {",
+      "  console.log('watch----newVal', newVal)",
+      "})"
+    ]
+  },
+  "onBeforeMount (vue3)": {
+    "prefix": "vCreated vBeforeMount",
+    "body": [
+      "// 组件被挂载之前被调用",
+      "onBeforeMount(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "onMounted (vue3)": {
+    "prefix": "vMounted",
+    "body": [
+      "// 组件挂载完成后调用",
+      "onMounted(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "onUpdated (vue3)": {
+    "prefix": "vUpdated",
+    "body": [
+      "// 组件响应式状态变更而更新其 DOM 树之后调用",
+      "onUpdated(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "onBeforeUnmount (vue3)": {
+    "prefix": "vUnmount",
+    "body": [
+      "// 组件卸载前调用",
+      "onBeforeUnmount(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "onUnmounted (vue3)": {
+    "prefix": "vUnmount",
+    "body": [
+      "// 组件卸载之后调用",
+      "onUnmounted(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "onActivated (vue3)": {
+    "prefix": "vActivated",
+    "body": [
+      "// 当组件被插入到 DOM 树中调用",
+      "onActivated(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "onDeactivated (vue3)": {
+    "prefix": "vDeactivated",
+    "body": [
+      "// 当组件从 DOM 中被移除时调用",
+      "onDeactivated(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+  "onErrorCaptured (vue3)": {
+    "prefix": "vError",
+    "body": [
+      "// 在捕获了后代组件传递的错误时调用",
+      "onErrorCaptured((err, instance, info) => {",
+      "  console.error(err)$1",
+      "})"
+    ]
+  },
+  "onServerPrefetch (vue3)": {
+    "prefix": "vSSR",
+    "body": [
+      "// 组件实例在服务器上被渲染之前调用",
+      "onServerPrefetch(async () => {",
+      "  data.value = await fetchData()",
+      "})"
+    ]
+  }
+}
