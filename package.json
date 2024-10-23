@@ -2,7 +2,7 @@
   "name": "fe-snippets",
   "displayName": "fe-snippets",
   "description": "fe-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -18,6 +18,10 @@
         "path": "./src/snippets/160.json"
       },
       {
+        "language": "typescript",
+        "path": "./src/snippets/160.json"
+      },
+      {
         "language": "vue",
         "path": "./src/snippets/160.json"
       },
@@ -26,7 +30,15 @@
         "path": "./src/snippets/common.json"
       },
       {
+        "language": "typescript",
+        "path": "./src/snippets/common.json"
+      },
+      {
         "language": "javascript",
+        "path": "./src/snippets/vue3.json"
+      },
+      {
+        "language": "typescript",
         "path": "./src/snippets/vue3.json"
       },
       {
@@ -35,6 +47,10 @@
       },
       {
         "language": "javascript",
+        "path": "./src/snippets/vue2.json"
+      },
+      {
+        "language": "typescript",
         "path": "./src/snippets/vue2.json"
       },
       {
