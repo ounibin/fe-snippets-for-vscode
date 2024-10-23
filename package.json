@@ -2,60 +2,65 @@
   "name": "fe-snippets",
   "displayName": "fe-snippets",
   "description": "fe-snippets",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:vue",
+    "onLanguage:html"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "snippets": [
       {
         "language": "javascript",
-        "path": "./src/snippets/160.json"
+        "path": "./snippets/160.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets/160.json"
+        "path": "./snippets/160.json"
       },
       {
         "language": "vue",
-        "path": "./src/snippets/160.json"
+        "path": "./snippets/160.json"
       },
       {
         "language": "javascript",
-        "path": "./src/snippets/common.json"
+        "path": "./snippets/common.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets/common.json"
+        "path": "./snippets/common.json"
       },
       {
         "language": "javascript",
-        "path": "./src/snippets/vue3.json"
+        "path": "./snippets/vue3.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets/vue3.json"
+        "path": "./snippets/vue3.json"
       },
       {
         "language": "vue",
-        "path": "./src/snippets/vue3.json"
+        "path": "./snippets/vue3.json"
       },
       {
         "language": "javascript",
-        "path": "./src/snippets/vue2.json"
+        "path": "./snippets/vue2.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets/vue2.json"
+        "path": "./snippets/vue2.json"
       },
       {
         "language": "vue",
-        "path": "./src/snippets/vue2.json"
+        "path": "./snippets/vue2.json"
       }
     ]
   },
