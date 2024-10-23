@@ -1,8 +1,8 @@
 {
-  "name": "vue3-snippets",
-  "displayName": "vue3-snippets",
-  "description": "vue3-snippets",
-  "version": "0.0.1",
+  "name": "fe-snippets",
+  "displayName": "fe-snippets",
+  "description": "fe-snippets",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.94.0"
   },
