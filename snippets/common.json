@@ -57,5 +57,16 @@
       "},"
     ],
     "description": "function shorthand"
+  },
+  "try-catch": {
+    "prefix": "try",
+    "body": [
+      "try {",
+      "  $1",
+      "} catch (err) {",
+      "  console.error(err)",
+      "}"
+    ],
+    "description": "try catch block"
   }
 }

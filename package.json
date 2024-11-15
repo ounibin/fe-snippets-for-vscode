@@ -2,7 +2,7 @@
   "name": "fe-snippets",
   "displayName": "fe-snippets",
   "description": "fe-snippets",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.94.0"
   },
