@@ -2,7 +2,7 @@
   "console.log": {
     "prefix": "cl",
     "body": [
-      "console.log(`异步打印----$1: `, $1)"
+      "console.log(`$1: `, $1)"
     ],
     "description": "console.log"
   },
