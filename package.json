@@ -20,18 +20,6 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/160.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/160.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/160.json"
-      },
-      {
-        "language": "javascript",
         "path": "./snippets/common.json"
       },
       {

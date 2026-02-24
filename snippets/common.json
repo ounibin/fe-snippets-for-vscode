@@ -57,7 +57,7 @@
   ".then": {
     "prefix": ".then",
     "body": [
-      ".then(res) => {",
+      ".then((res) => {",
       "  console.log('异步的结果res: ', res)",
       "}).catch(console.error)"
     ]
