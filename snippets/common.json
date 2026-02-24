@@ -2,7 +2,7 @@
   "console.log": {
     "prefix": "cl",
     "body": [
-      "console.log(`$1====`, $1)"
+      "console.log(`$2====`, $1)"
     ],
     "description": "console.log"
   },
@@ -46,6 +46,21 @@
       "export default "
     ],
     "description": "export default "
+  },
+  "module.exports": {
+    "prefix": "me",
+    "body": [
+      "module.exports = $1"
+    ],
+    "description": "module.exports"
+  },
+  ".then": {
+    "prefix": ".then",
+    "body": [
+      ".then(res) => {",
+      "  console.log('异步的结果res: ', res)",
+      "}).catch(console.error)"
+    ]
   },
   "arrow function": {
     "prefix": "afn",
