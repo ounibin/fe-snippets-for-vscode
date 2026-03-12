@@ -6,6 +6,9 @@ snippets/ 代码片段
 
 
 
+## 识别位置
+在 package.json 中配置对应的语言识别
+
 ## 打包 vscode 插件
 安装打包工具
 ```js

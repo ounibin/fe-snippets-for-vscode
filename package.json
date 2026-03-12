@@ -19,6 +19,10 @@
   "contributes": {
     "snippets": [
       {
+        "language": "typescriptreact",
+        "path": "./snippets/common.json"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/common.json"
       },
